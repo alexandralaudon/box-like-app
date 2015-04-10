@@ -122,6 +122,20 @@ p { color: #ffffff;  }
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 }
+
+.facebooklogo{
+  background-image: url('http://commons.wikimedia.org/wiki/File%3AFacebook_icon.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 250px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
 .box2{
 	background-color: #ff7e70;
 	width: 250px;

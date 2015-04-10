@@ -1,24 +1,24 @@
 <h1><center>Welcome to the World of Information</center></h1>
-<h5><center>you agreed to share</center></h5>
+<center>you agreed to share</center>
 
 <br>
 
 <div class="wrapper">
-      <div class="col_third">
-        <div class="hover panel">
-          <div class="front">
-            <div class="box1">
-              <p>Facebook</p>
-            </div>
-          </div>
-          <div class="back">
-            <div class="box2">
-              <% @facebook.each do |facebook| %>
-                <center><p><%= facebook.field %></p></center>
-              <% end %>
-            </div>
+    <div class="col_third">
+      <div class="hover panel">
+        <div class="front">
+          <div class="box1">
+            <p>Facebook</p>
           </div>
         </div>
+        <div class="back">
+          <div class="box2">
+            <% @facebook.each do |facebook| %>
+              <center><p><%= facebook.field %></p></center>
+            <% end %>
+          </div>
+        </div>
+      </div>
 		</div>
 
 		<div class="col_third">
