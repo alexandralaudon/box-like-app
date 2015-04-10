@@ -113,9 +113,38 @@ p { color: #ffffff;  }
 	-moz-transform: rotateX(0deg) rotateY(0deg);
 }
 
-.box1{
-	background-color: #14bcc8;
+.facebook{
+	background-image: url(Facebook_icon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 	width: 250px;
+  height: 250px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.instagram{
+  background-image: url(Instagram.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.google{
+	background-image: url(google_plus.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+	width: 250px;
+  height: 250px;
 	margin: 0 auto;
 	padding: 20px;
 	border-radius: 10px;

@@ -1,5 +1,5 @@
 <h1><center>Welcome to the World of Information</center></h1>
-<h5><center>you agreed to share</center></h5>
+<h5><center>you agreed to share...</center></h5>
 
 
 <br>
@@ -8,51 +8,33 @@
 <div class="wrapper">
     <div class="col_third">
       <div class="hover panel">
-        <div class="front">
-          <div class="box1">
-            <p>Facebook</p>
-          </div>
-        </div>
-        <div class="back">
-          <div class="box2">
-            <% @facebook.each do |facebook| %>
-              <center><p><%= facebook.field %></p></center>
-            <% end %>
-          </div>
+        <div class="front facebook"> </div>
+        <div class="back box2">
+          <% @facebook.each do |facebook| %>
+            <center><p><%= facebook.field %></p></center>
+          <% end %>
         </div>
       </div>
 		</div>
 
 		<div class="col_third">
         <div class="hover panel">
-          <div class="front">
-            <div class="box1">
-              <p>Instagram</p>
-            </div>
-          </div>
-          <div class="back">
-            <div class="box2">
-              <% @instagram.each do |instagram| %>
-                <center><p><%= instagram.field %></p></center>
-              <% end %>
-            </div>
+          <div class="front instagram"> </div>
+          <div class="back box2">
+            <% @instagram.each do |instagram| %>
+              <center><p><%= instagram.field %></p></center>
+            <% end %>
           </div>
         </div>
 		</div>
 
 		<div class="col_third end">
         <div class="hover panel">
-          <div class="front">
-            <div class="box1">
-              <p>Google Plus</p>
-            </div>
-          </div>
-          <div class="back">
-            <div class="box2">
-              <% @google.each do |google| %>
-                <center><p><%= google.field %></p></center>
-              <% end %>
-            </div>
+          <div class="front google"> </div>
+          <div class="back box2">
+            <% @google.each do |google| %>
+              <center><p><%= google.field %></p></center>
+            <% end %>
           </div>
         </div>
       </div>
