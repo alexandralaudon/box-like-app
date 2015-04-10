@@ -11,17 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150410155435) do
+ActiveRecord::Schema.define(version: 20150410162139) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "providers", force: :cascade do |t|
-    t.string   "facebook"
-    t.string   "google_plus"
-    t.string   "twitter"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  create_table "facebooks", force: :cascade do |t|
+    t.string "field"
+  end
+
+  create_table "googles", force: :cascade do |t|
+    t.string "field"
+  end
+
+  create_table "twitters", force: :cascade do |t|
+    t.string "field"
   end
 
 end
